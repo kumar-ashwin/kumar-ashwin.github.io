@@ -1,12 +1,26 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "I'm improving fairness and transparency in AI-assisted resource allocation problems."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Hi!
+
+I'm Ashwin Kumar, a PhD student at Washington University in St. Louis, advised by [Prof. William Yeoh](https://sites.wustl.edu/wyeoh/). I'm interested in the intersection of AI and fairness, and how we can use AI to improve fairness and transparency in resource allocation problems. I'm also interested in the intersection of AI and planning, and how we can use AI to improve planning algorithms.
+
+Over the years, I've worked on a variety of problems in AI, including planning, explainability, and resource allocation. I've also worked on a variety of problems in fairness, including fairness in resource allocation, fairness in machine learning, and fairness in AI-assisted decision making. My current research focuses on Temporal Resource Allocation Problems, where resources and agents may re-enter the market over time. Ensuring equity in TRAPs is a challenging problem, especially when trying to balance efficiency and fairness. Through my research, I plan to bridge the gap between algorithmic fairness techniques and efficient resource allocation. You can find more information about my research [here](/research/).
+
+When I'm not working, I can be found reading a book or biking in Forest Park. I also enjoy playing the piano, when I can get my hands on one. One of my favorite things to do is to travel, and I've been fortunate enough to visit many places around the world. I'm always looking for new things to do, new books to read, and interesting music to listen to, so if you have any recommendations, please let me know!
+
+Side note: A language model helped me write parts of this. They are getting surprisingly good, but I believe the next big step in AI will come from reinforcement learning. I'm excited to see what the future holds!
+
+=============================================
+Information about this template
+---------------------------------------------
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
