@@ -11,30 +11,64 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mechanical Engineering, Shiv Nadar University, 2019
+* M.S. in Computer Science, Washington University in St. Louis, 2022
+  * Graduate Certificate in Data Mining and Machine Learning
+* Ph.D in Computer Science, Washington University in St. Louis, 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2017: Design and Engineering Intern
+  * Bubblefly Technologies Pvt. Ltd., Delhi, India
+    *	Worked on designing an ergonomic fixed enclosure system for the avionics bay of Unmanned Aerial vehicles.
+    * Conducted research on the design of an adaptable battery mount for ease of installation and removal.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+
+* Summer 2018: Research Intern
+  * Indian Institue of Science, Bengaluru, India
+    * Performed dimensionality reduction of strain energy expression for hyper-elastic strip geometry using symbolic tools like Mathematica; solution using Variational Asymptotic Method (VAM) to develop a geometrically and materially non-linear beam theory. 
+    * Applied to helicopter rotor blades for vibration reduction.
+
+
+* Spring 2022: Assistant in Instruction
+  * Department of Computer Science, Washington University in St. Louis, St Louis, MO
+    * Provided one-on-one assistance to more than 130 students on coursework and homework assignments covering the mathematical foundations and application of algorithms for search, constraint satisfaction, Markov models, reinforcement learning and propositional and first order logic for the course Introduction to Artificial Intelligence.
+    *	Graded homework assignments and exams.
+	  * Delivered lectures on Reinforcement Learning and conducted problem-solving sessions on Logic and MDPs. 
+
+* Fall 2022: Research Scientist Intern
+  * Meta Systems, Inc., New York, NY
+    * Designed methods for detection of bias feedback loops in content classifiers which use Model Assisted Sampling to send data points for human review.
+    * Measured the propagation of bias to future models if a biased model is used in the sampling process and worked on sampling strategies to mitigate bias bootstrapping and speed up recovery.
+    * Worked with multiple product teams to identify different techniques and generalize experiments.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Coding
+  * Data structures and algorithms
+  * Object-oriented programming
+  * Git/ version control
+* Python
+  * Data analysis (pandas, numpy, scipy, scikit-learn)
+  * Machine learning (scikit-learn, tensorflow, pytorch)
+  * Optimization (cplex, gurobi)
+  * Web design (flask, d3.js, css, html)
+* Machine Learning
+  * Reinforcement Learning
+    * MDPs and POMDPs
+    * Deep Q-Networks
+    * Policy Gradient Methods
+    * Actor-Critic Methods
+  * Supervised Learning
+    * Regression
+    * Gradient Boosted Trees
+    * Neural Networks
+  * Adversarial Machine Learning
+* Natural Language Processing
+  * Word embeddings
+  * Sequence to sequence models
+  * Transformers
+  * Attention 
 
 Publications
 ======
@@ -56,4 +90,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for the eXplainable AI Planning (XAIP) workshop, ICAPS 22
+* Reviewer for the Human-Aware Explainable Planning (HAXP) workshop, ICAPS 23

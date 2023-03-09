@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "I'm improving fairness and transparency in AI-assisted resource allocation problems."
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
