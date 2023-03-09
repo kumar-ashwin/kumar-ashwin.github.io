@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Artificial Intelligence"
 collection: teaching
-type: "Undergraduate course"
+type: "Assistant in Instruction"
 permalink: /teaching/2022-spring-teaching-1
 venue: "Washington University in St. Louis, Department of Computer Science"
 date: 2022-01-14
