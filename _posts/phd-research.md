@@ -1,7 +1,7 @@
 ---
 title: 'Why fairness in temporal resource allocation?'
 date: 2023-03-08
-permalink: /posts/2012/08/phd-research/
+permalink: /posts/phd-research/
 tags:
   - motivation
   - research
