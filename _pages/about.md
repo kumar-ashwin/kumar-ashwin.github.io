@@ -21,7 +21,7 @@ You can find more information about my research [here](/publications/).
 When I'm not working, I can be found reading a book or biking in Forest Park. I also enjoy playing the piano, when I can get my hands on one. One of my favorite things to do is to travel, and I've been fortunate enough to visit many places around the world. I'm always looking for new things to do, new books to read, and interesting music to listen to, so if you have any recommendations, please let me know!
 
 Side note: A language model helped me write parts of this. They are getting surprisingly good, but I believe the next big step in AI will come from reinforcement learning. I'm excited to see what the future holds!
-
+<!-- 
 =============================================
 Information about this template
 ---------------------------------------------
@@ -65,4 +65,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->

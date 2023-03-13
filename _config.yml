@@ -14,7 +14,7 @@ description              : &description "PhD Student working at the intersection
 url                      : https://kumar-ashwin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kumar-ashwin/kumar-ashwin.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "portrait.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ashwin Kumar"
-  avatar           : "profile.png"
+  avatar           : "portrait.png"
   bio              : "Improving Fairness and Explainability in modern AI algorithms."
   location         : "St Louis, MO"
   employer         : Washington University in St. Louis

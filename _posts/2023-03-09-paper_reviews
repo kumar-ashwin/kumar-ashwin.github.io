@@ -1,0 +1,57 @@
+---
+title: 'Paper Reviews'
+date: 2023-03-09
+permalink: /posts/2023/03/paper_reviews/
+tags:
+  - motivation
+  - research
+---
+
+`Review of the paper: Fairness and Sequential Decision Making: Limits, Lessons, and Opportunities by Nashed, et al. (2023)`
+
+[link](https://arxiv.org/pdf/2301.05753.pdf)
+
+Looking at the landscape of fair decision making across two sub areas: algorithmic fairness and ethical decision making.
+
+Algorithmic fairness: Focuses on predictive systems (e.g., FAccT)
+Ethical Decision Making: Focuses on sequential decision making and planning
+
+Examples of high-stakes decisions: Education and college admissions, predictive policing, recidivism risk prevention, child and homeless welfare, clinical trials, hiring.
+
+Has a good background section on sequential decision making via an MDP framework.
+Fairness in MDPs has not been extensively studied. The paper talks about how multi-armed bandit problems are a subset of MDPs which is well studied. 
+
+!!!Look at the related work section for MAB fairness!!!
+MDP's are MABs but looking at a sequence of actions instead of picking the best action right now.
+
+Conceptualizations of doing the 'right thing' differ between algorithmic fairness and ethical decision-making.
+: Algorithmic fairness tries to equalize exposure or outcomes across groups.
+: Ethical decision making frames the right thing as adherence to a set of rules to follow.
+
+Recently, welfare has been proposed as an alternative measure of outcome rate than error rates.
+
+How to do fairness audits for sequential decision making is missing from the literature.
+
+Sequential decision makers specify provably optimal policies! 
+   This changes the statistical measures of fairness, as we can't evaluate the average response to an action. (policies represent situation dependent prescriptions for actions)
+
+SDMs make assumptions about the world. If transition functions are inaccurate, for eg, the policy would be optimal wrt the model, but not the real world. (RL tries to solve this issue)
+
+"All features are proxy data for the variable of interest. If we could measure the variable of interest directly, there would be no need for a prediction system". Thus, when we include features, we are making assumptions about its correlation or causal relation with the variable of interest.
+
+SDM requires a Reward function, that decomposes every kind of effect into the same 'unit'. This may be problematic.
+
+Brilliant writing in parts: "Because of the proof of-concept nature of most existing work on ethical decision making, the pattern of implicit justification extends to this research as well."
+
+"SDMs must be deployed to fully evaluate them"
+
+MDP solvers have polynomial complexity in the number of states, but number of states grow exponentially with the number of state factors.
+
+Can add constraints to the MDP optimization. But these are not usually deployed due to their complexity, even though there are many advantages.
+
+Re-read mitigations. 
+
+"decision-making systems often operate below the awareness of the public and many regulatory bodies, because they do not tend to make decisions that directly affect individual people"
+
+## Summary
+This paper looks at sequential decision making and compares the ideas, methodologies and mitigations there against the ones used in algorithmic fairness research, providing some key differences and areas for exploration.
