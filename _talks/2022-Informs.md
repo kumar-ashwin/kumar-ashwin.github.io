@@ -1,7 +1,7 @@
 ---
 title: "Urban Ridesharing: Improving Tradeoffs Between Geographic Fairness And Efficiency"
 collection: talks
-type: "Talk"
+type: "Invited Talk"
 permalink: /talks/2022-informs
 venue: "INFORMS Annual Meeting"
 date: 2022-10-18
