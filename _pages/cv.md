@@ -38,7 +38,7 @@ Work experience
 	  * Delivered lectures on Reinforcement Learning and conducted problem-solving sessions on Logic and MDPs. 
 
 * Fall 2022: Research Scientist Intern
-  * Meta Systems, Inc., New York, NY
+  * Meta Platforms, Inc., New York, NY
     * Designed methods for detection of bias feedback loops in content classifiers which use Model Assisted Sampling to send data points for human review.
     * Measured the propagation of bias to future models if a biased model is used in the sampling process and worked on sampling strategies to mitigate bias bootstrapping and speed up recovery.
     * Worked with multiple product teams to identify different techniques and generalize experiments.
