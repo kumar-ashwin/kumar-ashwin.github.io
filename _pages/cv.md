@@ -10,6 +10,8 @@ redirect_from:
 {% include base_path %}
 For a PDF version of my CV, click [here](https://kumar-ashwin.github.io/files/CV_Feb2023.pdf).
 
+See my [Resume](https://kumar-ashwin.github.io/files/Resume_May2024.pdf) to see a shorter version.
+
 Education
 ======
 * B.S. in Mechanical Engineering, Shiv Nadar University, 2019
