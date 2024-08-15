@@ -9,7 +9,3 @@ paperurl: 'http://kumar-ashwin.github.io/files/DECAF_Learning_to_be_Fair_in_MARA
 citation: 'Kumar, A.; and Yeoh, W. 2024. &quot;DECAF: Learning to be Fair in Multi-Agent Resource Allocation.&quot; In <i>RL Safety Workshop (co-located with the Reinforcement Learning Conference)</i>.'
 ---
 In this paper, I explore how we can improve the fairness of multi-agent resource allocation problems that learn to predict utilities by also learning to predict the effect of actions on long-term fairness. We show our approach can trade off utility and fairness reliably and in a pareto-optimal fashion.
-
-[Download paper here](http://academicpages.github.io/files/DECAF_Learning_to_be_Fair_in_MARA.pdf)
-
-Recommended citation: Kumar, A.; and Yeoh, W. 2024. "DECAF: Learning to be Fair in Multi-Agent Resource Allocation." In <i>RL Safety Workshop (co-located with the Reinforcement Learning Conference)</i>.
