@@ -52,76 +52,8 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    
-    {% if post.citation and post.paperurl %}
-      <p><strong>Recommended citation:</strong></p>
-      <div class="citation-block">
-        <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
-        <div class="citation-text">{{ post.citation }}</div>
-      </div>
-      <p><a href="{{ post.paperurl }}"><u>Download Link</u></a></p>
-    {% elsif post.citation %}
-      <p><strong>Recommended citation:</strong></p>
-      <div class="citation-block">
-        <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
-        <div class="citation-text">{{ post.citation }}</div>
-      </div>
-    {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}"><u>Download Link</u></a></p>
-    {% endif %}
-    
-
-<!--     Styling and script for the copy button -->
-   <style>
-      .citation-block {
-        position: relative;
-        background-color: #f5f5f5;
-        padding: 10px;
-        border-radius: 5px;
-        word-wrap: break-word; /* Ensures long words are broken up */
-        overflow: hidden; /* Prevents any scrollbars */
-      }
-    
-      .citation-text {
-        font-family: "Courier New", Courier, monospace;
-        white-space: normal; /* Ensures text wraps */
-        margin-right: 50px; /* Avoids overlap with the copy button */
-      }
-    
-      .copy-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px; /* Moves the button to the top-right */
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 5px 10px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 12px;
-      }
-    
-      .copy-btn:hover {
-        background-color: #0056b3;
-      }
-    </style>
-
-
-  <script>
-    function copyToClipboard(button) {
-      const citationBlock = button.nextElementSibling;
-      const textToCopy = citationBlock.innerText;
-  
-      navigator.clipboard.writeText(textToCopy).then(function() {
-        button.innerText = "Copied!";
-        setTimeout(function() {
-          button.innerText = "Copy";
-        }, 2000);
-      }, function(err) {
-        console.error("Could not copy text: ", err);
-      });
-    }
-  </script>
+<!--     Format the citation and link -->
+    {% include archive-paper-style.html} 
 
 
 
