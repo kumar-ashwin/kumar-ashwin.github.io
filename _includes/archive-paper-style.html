@@ -1,22 +1,4 @@
-{% if post.citation and post.paperurl %}
-      <p><strong>Recommended citation:</strong></p>
-      <div class="citation-block">
-        <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
-        <div class="citation-text">{{ post.citation }}</div>
-      </div>
-      <p><a href="{{ post.paperurl }}"><u>Download Link</u></a></p>
-    {% elsif post.citation %}
-      <p><strong>Recommended citation:</strong></p>
-      <div class="citation-block">
-        <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
-        <div class="citation-text">{{ post.citation }}</div>
-      </div>
-    {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}"><u>Download Link</u></a></p>
-    {% endif %}
-    
-
-<!--     Styling and script for the copy button -->
+<!--     Styling and script for the copy button and citation-->
    <style>
       .citation-block {
         position: relative;
