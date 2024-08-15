@@ -22,17 +22,19 @@ Education
 Publications
 ======
 ## Publications
+## Publications
 
 <div id="publications-container">
   <ul>
-    {% for post in site.publications limit:3 %}
+    {% assign reversed_publications = site.publications | reverse %}
+    {% for post in reversed_publications limit:3 %}
       {% include archive-single-cv.html %}
     {% endfor %}
   </ul>
   
   <div id="more-publications" style="display: none;">
     <ul>
-      {% for post in site.publications offset:3 %}
+      {% for post in reversed_publications offset:3 %}
         {% include archive-single-cv.html %}
       {% endfor %}
     </ul>
@@ -40,6 +42,37 @@ Publications
 
   <button id="toggle-publications" onclick="togglePublications()">Show More</button>
 </div>
+
+<style>
+  #toggle-publications {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  #toggle-publications:hover {
+    background-color: #0056b3;
+  }
+
+  #publications-container {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+</style>
 
 <script>
   function togglePublications() {
@@ -56,9 +89,6 @@ Publications
   }
 </script>
 
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 Work experience
 ======
