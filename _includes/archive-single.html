@@ -60,25 +60,43 @@
       </p>
     {% endif %}
 
-<!--     Format the citation and link -->
-<!--     {% if post.citation and post.paperurl %}
-      <p><strong>Recommended citation:</strong></p>
-      <div class="citation-block">
-        <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
-        <div class="citation-text">{{ post.citation }}</div>
-      </div>
-      <p><a href="{{ post.paperurl }}"><u>Download Link</u></a></p>
-    {% elsif post.citation %}
-      <p><strong>Recommended citation:</strong></p>
-      <div class="citation-block">
-        <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
-        <div class="citation-text">{{ post.citation }}</div>
-      </div>
-    {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}"><u>Download Link</u></a></p>
-    {% endif %}
-    {% include archive-paper-style.html %}  -->
 
+    <style>
+        @font-face {
+          font-family: 'FontAwesome';
+          src: url('/assets/fonts/fa-regular-400.eot'); /* Update with your actual path */
+          src: url('/assets/fonts/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+               url('/assets/fonts/fa-regular-400.woff2') format('woff2'),
+               url('/assets/fonts/fa-regular-400.woff') format('woff'),
+               url('/assets/fonts/fa-regular-400.ttf') format('truetype'),
+               url('/assets/fonts/fa-regular-400.svg#fontawesomeregular') format('svg');
+          font-weight: normal;
+          font-style: normal;
+        }
+        
+        @font-face {
+          font-family: 'FontAwesome';
+          src: url('/assets/fonts/fa-solid-900.eot'); /* Update with your actual path */
+          src: url('/assets/fonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+               url('/assets/fonts/fa-solid-900.woff2') format('woff2'),
+               url('/assets/fonts/fa-solid-900.woff') format('woff'),
+               url('/assets/fonts/fa-solid-900.ttf') format('truetype'),
+               url('/assets/fonts/fa-solid-900.svg#fontawesomesolid') format('svg');
+          font-weight: 900;
+          font-style: normal;
+        }
+      
+        .pdf-icon {
+          margin-left: 10px;
+          color: #d9534f;
+          font-size: 1.2em;
+        }
+        
+        .pdf-icon:hover {
+          color: #c9302c; /* Darker red on hover */
+        }
+
+    </style>
 
 
   </article>
