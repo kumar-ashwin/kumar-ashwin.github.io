@@ -21,20 +21,53 @@ Education
 
 Publications
 ======
+## Publications
+
+<div id="publications-container">
+  <ul>
+    {% for post in site.publications limit:3 %}
+      {% include archive-single-cv.html %}
+    {% endfor %}
+  </ul>
+  
+  <div id="more-publications" style="display: none;">
+    <ul>
+      {% for post in site.publications offset:3 %}
+        {% include archive-single-cv.html %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <button id="toggle-publications" onclick="togglePublications()">Show More</button>
+</div>
+
+<script>
+  function togglePublications() {
+    var morePublications = document.getElementById("more-publications");
+    var button = document.getElementById("toggle-publications");
+    
+    if (morePublications.style.display === "none") {
+      morePublications.style.display = "block";
+      button.innerText = "Show Less";
+    } else {
+      morePublications.style.display = "none";
+      button.innerText = "Show More";
+    }
+  }
+</script>
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Work experience
 ======
 * **Fall 2023: Research Scientist Intern (Meta Platforms, Inc., Menlo Park, CA)**
-
   <details>
   <summary><strong>Bias in LLM Reward Models</strong></summary>
-  
-  - Designed metrics to detect bias in reward models used in the RLHF pipeline.
-  - Evaluated multiple open-source datasets and LLM architectures for the presence of this bias to build understanding and guide mitigations.
-  - Used active learning techniques to identify useful data points to be labeled for RLHF, to minimize labeling costs.
+  * Designed metrics to detect bias in reward models used in the RLHF pipeline.
+  * Evaluated multiple open-source datasets and LLM architectures for the presence of this bias to build understanding and guide mitigations.
+  * Used active learning techniques to identify useful data points to be labeled for RLHF, to minimize labeling costs.
   </details>
 
 * **Summer 2022: Research Scientist Intern (Meta Platforms, Inc., New York, NY)**
