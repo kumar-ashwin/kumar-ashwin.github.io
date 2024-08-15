@@ -19,44 +19,40 @@ Education
   * Graduate Certificate in Data Mining and Machine Learning
 * Ph.D in Computer Science, Washington University in St. Louis, 2024 (expected)
 
+Publications
+======
+{% include archive-style-publications.html %}
+  
 Work experience
 ======
-* Fall 2023: Research Scientist Intern 
+* **Fall 2023: Research Scientist Intern**
   * Meta Platforms, Inc., Menlo Park, CA
     * Designed metrics to detect bias in reward models used in the RLHF pipeline.
     * Evaluated multiple open-source datasets and LLM architectures for the presence of this bias to build understanding and guide mitigations.
     * Used active learning techniques to identify useful data points to be labeled for RLHF, to minimize labeling costs.
 
-* Summer 2017: Design and Engineering Intern
-  * Bubblefly Technologies Pvt. Ltd., Delhi, India
-    *	Worked on designing an ergonomic fixed enclosure system for the avionics bay of Unmanned Aerial vehicles.
-    * Conducted research on the design of an adaptable battery mount for ease of installation and removal.
-
-
-* Summer 2018: Research Intern
-  * Indian Institue of Science, Bengaluru, India
-    * Performed dimensionality reduction of strain energy expression for hyper-elastic strip geometry using symbolic tools like Mathematica; solution using Variational Asymptotic Method (VAM) to develop a geometrically and materially non-linear beam theory. 
-    * Applied to helicopter rotor blades for vibration reduction.
-
-
-* Spring 2022: Assistant in Instruction
-  * Department of Computer Science, Washington University in St. Louis, St Louis, MO
-    * Provided one-on-one assistance to more than 130 students on coursework and homework assignments covering the mathematical foundations and application of algorithms for search, constraint satisfaction, Markov models, reinforcement learning and propositional and first order logic for the course Introduction to Artificial Intelligence.
-    *	Graded homework assignments and exams.
-	  * Delivered lectures on Reinforcement Learning and conducted problem-solving sessions on Logic and MDPs. 
-
-* Fall 2022: Research Scientist Intern
+* **Fall 2022: Research Scientist Intern**
   * Meta Platforms, Inc., New York, NY
     * Designed methods for detection of bias feedback loops in content classifiers which use Model Assisted Sampling to send data points for human review.
     * Measured the propagation of bias to future models if a biased model is used in the sampling process and worked on sampling strategies to mitigate bias bootstrapping and speed up recovery.
     * Worked with multiple product teams to identify different techniques and generalize experiments.
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+* **Spring 2022: Assistant in Instruction**
+  * Department of Computer Science, Washington University in St. Louis, St Louis, MO
+    * Provided one-on-one assistance to more than 130 students on coursework and homework assignments covering the mathematical foundations and application of algorithms for search, constraint satisfaction, Markov models, reinforcement learning and propositional and first order logic for the course Introduction to Artificial Intelligence.
+    *	Graded homework assignments and exams.
+	  * Delivered lectures on Reinforcement Learning and conducted problem-solving sessions on Logic and MDPs. 
+
+* **Summer 2018: Research Intern**
+  * Indian Institue of Science, Bengaluru, India
+    * Performed dimensionality reduction of strain energy expression for hyper-elastic strip geometry using symbolic tools like Mathematica; solution using Variational Asymptotic Method (VAM) to develop a geometrically and materially non-linear beam theory. 
+    * Applied to helicopter rotor blades for vibration reduction.
+
+* **Summer 2017: Design and Engineering Intern**
+  * Bubblefly Technologies Pvt. Ltd., Delhi, India
+    *	Worked on designing an ergonomic fixed enclosure system for the avionics bay of Unmanned Aerial vehicles.
+    * Conducted research on the design of an adaptable battery mount for ease of installation and removal.
+
 Talks
 ======
   <ul>{% for post in site.talks %}
