@@ -10,7 +10,3 @@ citation: 'Vasilieou, S.; Yeoh, W.; Son, T.; Kumar, A.; Cashmore, M.; and Magazz
 
 ---
 This paper presents a logic-based explanation generation framework for classical and hybrid planning problems. 
-
-[Download paper here](https://thestlucas.com/assets/pdf/papers/jair22.pdf)
-
-Recommended citation: Vasilieou, S.; Yeoh, W.; Son, T.; Kumar, A.; Cashmore, M.; and Magazzeni, D. 2022. "A Logic-Based Explanation Generation Framework for Classical and Hybrid Planning Problems." In <i>Journal of Artificial Intelligence Research (JAIR)</i>. 73.
