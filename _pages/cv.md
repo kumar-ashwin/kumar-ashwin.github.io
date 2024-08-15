@@ -21,93 +21,28 @@ Education
 
 Publications
 ======
-## Publications
-## Publications
-
-<div id="publications-container">
-  <ul>
-    {% assign reversed_publications = site.publications | reverse %}
-    {% for post in reversed_publications limit:3 %}
-      {% include archive-single-cv.html %}
-    {% endfor %}
-  </ul>
-  
-  <div id="more-publications" style="display: none;">
-    <ul>
-      {% for post in reversed_publications offset:3 %}
-        {% include archive-single-cv.html %}
-      {% endfor %}
-    </ul>
-  </div>
-
-  <button id="toggle-publications" onclick="togglePublications()">Show More</button>
-</div>
-
-<style>
-  #toggle-publications {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 0;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-
-  #toggle-publications:hover {
-    background-color: #0056b3;
-  }
-
-  #publications-container {
-    max-width: 600px;
-    margin: auto;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-</style>
-
-<script>
-  function togglePublications() {
-    var morePublications = document.getElementById("more-publications");
-    var button = document.getElementById("toggle-publications");
-    
-    if (morePublications.style.display === "none") {
-      morePublications.style.display = "block";
-      button.innerText = "Show Less";
-    } else {
-      morePublications.style.display = "none";
-      button.innerText = "Show More";
-    }
-  }
-</script>
-
+{% include archive-style-publications.html %}
 
 Work experience
 ======
 * **Fall 2023: Research Scientist Intern (Meta Platforms, Inc., Menlo Park, CA)**
+
   <details>
   <summary><strong>Bias in LLM Reward Models</strong></summary>
-  * Designed metrics to detect bias in reward models used in the RLHF pipeline.
-  * Evaluated multiple open-source datasets and LLM architectures for the presence of this bias to build understanding and guide mitigations.
-  * Used active learning techniques to identify useful data points to be labeled for RLHF, to minimize labeling costs.
+  
+    * Designed metrics to detect bias in reward models used in the RLHF pipeline.
+    * Evaluated multiple open-source datasets and LLM architectures for the presence of this bias to build understanding and guide mitigations.
+    * Used active learning techniques to identify useful data points to be labeled for RLHF, to minimize labeling costs.
   </details>
 
 * **Summer 2022: Research Scientist Intern (Meta Platforms, Inc., New York, NY)**
 
   <details>
   <summary><strong>Bias Feedback Loop Detection in Continual Active Learning</strong></summary>
-  
-  - Designed methods to detect bias feedback loops in content classifiers using Model Assisted Sampling for data review.
-  - Measured bias propagation to future models when a biased model is used in sampling, and developed strategies to mitigate bias bootstrapping and accelerate recovery.
-  - Collaborated with multiple product teams to identify techniques and generalize experimental findings.
+    
+    * Designed methods to detect bias feedback loops in content classifiers using Model Assisted Sampling for data review.
+    * Measured bias propagation to future models when a biased model is used in sampling, and developed strategies to mitigate bias bootstrapping and accelerate recovery.
+    * Collaborated with multiple product teams to identify techniques and generalize experimental findings.
   </details>
 
 * **Spring 2022: Assistant in Instruction (Department of Computer Science, Washington University in St. Louis, St Louis, MO)**
@@ -115,27 +50,27 @@ Work experience
   <details>
   <summary><strong>Course: Introduction to Artificial Intelligence</strong></summary>
   
-  - Provided one-on-one assistance to over 130 students on coursework and assignments related to algorithms, Markov models, reinforcement learning, and logic.
-  - Graded homework assignments and exams.
-  - Delivered lectures on Reinforcement Learning and led problem-solving sessions on Logic and Markov Decision Processes (MDPs).
+    * Provided one-on-one assistance to over 130 students on coursework and assignments related to algorithms, Markov models, reinforcement learning, and logic.
+    * Graded homework assignments and exams.
+    * Delivered lectures on Reinforcement Learning and led problem-solving sessions on Logic and Markov Decision Processes (MDPs).
   </details>
 
 * **Summer 2018: Research Intern (Indian Institute of Science, Bengaluru, India)**
 
   <details>
   <summary><strong>Dimensionality Reduction for Hyper-Elastic Strip Geometry</strong></summary>
-  
-  - Performed dimensionality reduction of strain energy expressions for hyper-elastic strip geometry using symbolic tools like Mathematica.
-  - Utilized the Variational Asymptotic Method (VAM) to develop a geometrically and materially non-linear beam theory, applied to helicopter rotor blades for vibration reduction.
+    
+    * Performed dimensionality reduction of strain energy expressions for hyper-elastic strip geometry using symbolic tools like Mathematica.
+    * Utilized the Variational Asymptotic Method (VAM) to develop a geometrically and materially non-linear beam theory, applied to helicopter rotor blades for vibration reduction.
   </details>
 
 * **Summer 2017: Design and Engineering Intern (Bubblefly Technologies Pvt. Ltd., Delhi, India)**
 
   <details>
   <summary><strong>Ergonomic Design for UAV Avionics Bay</strong></summary>
-  
-  - Designed an ergonomic fixed enclosure system for the avionics bay of Unmanned Aerial Vehicles (UAVs).
-  - Conducted research and developed an adaptable battery mount for easier installation and removal.
+    
+    * Designed an ergonomic fixed enclosure system for the avionics bay of Unmanned Aerial Vehicles (UAVs).
+    * Conducted research and developed an adaptable battery mount for easier installation and removal.
   </details>
 
 Talks
@@ -158,11 +93,11 @@ Service and leadership
 * Reviewer for the Human-Aware Explainable Planning (HAXP) workshop, ICAPS 2023
 * Reviewer for the eXplainable AI Planning (XAIP) workshop, ICAPS 2022
 
-## Skills
-
+Skills
+======
 <details>
   <summary><strong>Coding</strong></summary>
-
+  
   - Data structures and algorithms
   - Object-oriented programming
   - Git/Version control
@@ -170,7 +105,7 @@ Service and leadership
 
 <details>
   <summary><strong>Python</strong></summary>
-
+  
   - Data analysis: pandas, numpy, scipy, scikit-learn
   - Machine learning: scikit-learn, tensorflow, pytorch
   - Optimization: cplex, gurobi
@@ -179,7 +114,7 @@ Service and leadership
 
 <details>
   <summary><strong>Machine Learning</strong></summary>
-
+  
   - **Reinforcement Learning**
     - MDPs and POMDPs
     - Deep Q-Networks
@@ -194,7 +129,7 @@ Service and leadership
 
 <details>
   <summary><strong>Natural Language Processing</strong></summary>
-
+  
   - Word embeddings
   - Sequence to sequence models
   - Transformers
